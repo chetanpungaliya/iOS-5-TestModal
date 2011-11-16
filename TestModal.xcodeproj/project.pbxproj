@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617311B11473108100BED600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617311B01473108100BED600 /* UIKit.framework */; };
+		617311B31473108100BED600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617311B21473108100BED600 /* Foundation.framework */; };
+		617311B51473108100BED600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617311B41473108100BED600 /* CoreGraphics.framework */; };
+		617311BB1473108100BED600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 617311B91473108100BED600 /* InfoPlist.strings */; };
+		617311BD1473108100BED600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617311BC1473108100BED600 /* main.m */; };
+		617311C11473108100BED600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617311C01473108100BED600 /* AppDelegate.m */; };
+		617311C41473108100BED600 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617311C31473108100BED600 /* FirstViewController.m */; };
+		617311C61473108100BED600 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 617311C51473108100BED600 /* first.png */; };
+		617311C81473108100BED600 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 617311C71473108100BED600 /* first@2x.png */; };
+		617311CB1473108100BED600 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617311CA1473108100BED600 /* SecondViewController.m */; };
+		617311CD1473108100BED600 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 617311CC1473108100BED600 /* second.png */; };
+		617311CF1473108100BED600 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 617311CE1473108100BED600 /* second@2x.png */; };
+		617311D21473108100BED600 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617311D01473108100BED600 /* FirstViewController.xib */; };
+		617311D51473108100BED600 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617311D31473108100BED600 /* SecondViewController.xib */; };
+		61BBF0B314731D4D00294965 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BBF0B114731D4D00294965 /* ModalViewController.m */; };
+		61BBF0B414731D4D00294965 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61BBF0B214731D4D00294965 /* ModalViewController.xib */; };
+		61BBF0BA14732D9100294965 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61BBF0B914732D9100294965 /* Readme.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		617311AC1473108100BED600 /* TestModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617311B01473108100BED600 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		617311B21473108100BED600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		617311B41473108100BED600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		617311B81473108100BED600 /* TestModal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestModal-Info.plist"; sourceTree = "<group>"; };
+		617311BA1473108100BED600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		617311BC1473108100BED600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		617311BE1473108100BED600 /* TestModal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestModal-Prefix.pch"; sourceTree = "<group>"; };
+		617311BF1473108100BED600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		617311C01473108100BED600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		617311C21473108100BED600 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		617311C31473108100BED600 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		617311C51473108100BED600 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		617311C71473108100BED600 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		617311C91473108100BED600 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		617311CA1473108100BED600 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		617311CC1473108100BED600 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		617311CE1473108100BED600 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		617311D11473108100BED600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		617311D41473108100BED600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		61BBF0B014731D4D00294965 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		61BBF0B114731D4D00294965 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		61BBF0B214731D4D00294965 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		61BBF0B914732D9100294965 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617311A91473108100BED600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617311B11473108100BED600 /* UIKit.framework in Frameworks */,
+				617311B31473108100BED600 /* Foundation.framework in Frameworks */,
+				617311B51473108100BED600 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617311A11473108100BED600 = {
+			isa = PBXGroup;
+			children = (
+				61BBF0B914732D9100294965 /* Readme.txt */,
+				617311B61473108100BED600 /* TestModal */,
+				617311AF1473108100BED600 /* Frameworks */,
+				617311AD1473108100BED600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		617311AD1473108100BED600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617311AC1473108100BED600 /* TestModal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617311AF1473108100BED600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				617311B01473108100BED600 /* UIKit.framework */,
+				617311B21473108100BED600 /* Foundation.framework */,
+				617311B41473108100BED600 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617311B61473108100BED600 /* TestModal */ = {
+			isa = PBXGroup;
+			children = (
+				617311BF1473108100BED600 /* AppDelegate.h */,
+				617311C01473108100BED600 /* AppDelegate.m */,
+				617311C21473108100BED600 /* FirstViewController.h */,
+				617311C31473108100BED600 /* FirstViewController.m */,
+				617311C51473108100BED600 /* first.png */,
+				617311C71473108100BED600 /* first@2x.png */,
+				617311C91473108100BED600 /* SecondViewController.h */,
+				617311CA1473108100BED600 /* SecondViewController.m */,
+				61BBF0B014731D4D00294965 /* ModalViewController.h */,
+				61BBF0B114731D4D00294965 /* ModalViewController.m */,
+				617311CC1473108100BED600 /* second.png */,
+				617311CE1473108100BED600 /* second@2x.png */,
+				617311D01473108100BED600 /* FirstViewController.xib */,
+				617311D31473108100BED600 /* SecondViewController.xib */,
+				61BBF0B214731D4D00294965 /* ModalViewController.xib */,
+				617311B71473108100BED600 /* Supporting Files */,
+			);
+			path = TestModal;
+			sourceTree = "<group>";
+		};
+		617311B71473108100BED600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				617311B81473108100BED600 /* TestModal-Info.plist */,
+				617311B91473108100BED600 /* InfoPlist.strings */,
+				617311BC1473108100BED600 /* main.m */,
+				617311BE1473108100BED600 /* TestModal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617311AB1473108100BED600 /* TestModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617311D81473108200BED600 /* Build configuration list for PBXNativeTarget "TestModal" */;
+			buildPhases = (
+				617311A81473108100BED600 /* Sources */,
+				617311A91473108100BED600 /* Frameworks */,
+				617311AA1473108100BED600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestModal;
+			productName = TestModal;
+			productReference = 617311AC1473108100BED600 /* TestModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617311A31473108100BED600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Poshmark, Inc.";
+			};
+			buildConfigurationList = 617311A61473108100BED600 /* Build configuration list for PBXProject "TestModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 617311A11473108100BED600;
+			productRefGroup = 617311AD1473108100BED600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617311AB1473108100BED600 /* TestModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617311AA1473108100BED600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617311BB1473108100BED600 /* InfoPlist.strings in Resources */,
+				617311C61473108100BED600 /* first.png in Resources */,
+				617311C81473108100BED600 /* first@2x.png in Resources */,
+				617311CD1473108100BED600 /* second.png in Resources */,
+				617311CF1473108100BED600 /* second@2x.png in Resources */,
+				617311D21473108100BED600 /* FirstViewController.xib in Resources */,
+				617311D51473108100BED600 /* SecondViewController.xib in Resources */,
+				61BBF0B414731D4D00294965 /* ModalViewController.xib in Resources */,
+				61BBF0BA14732D9100294965 /* Readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617311A81473108100BED600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617311BD1473108100BED600 /* main.m in Sources */,
+				617311C11473108100BED600 /* AppDelegate.m in Sources */,
+				617311C41473108100BED600 /* FirstViewController.m in Sources */,
+				617311CB1473108100BED600 /* SecondViewController.m in Sources */,
+				61BBF0B314731D4D00294965 /* ModalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617311B91473108100BED600 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617311BA1473108100BED600 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		617311D01473108100BED600 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617311D11473108100BED600 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		617311D31473108100BED600 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617311D41473108100BED600 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617311D61473108100BED600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		617311D71473108200BED600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617311D91473108200BED600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestModal/TestModal-Prefix.pch";
+				INFOPLIST_FILE = "TestModal/TestModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		617311DA1473108200BED600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestModal/TestModal-Prefix.pch";
+				INFOPLIST_FILE = "TestModal/TestModal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617311A61473108100BED600 /* Build configuration list for PBXProject "TestModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617311D61473108100BED600 /* Debug */,
+				617311D71473108200BED600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617311D81473108200BED600 /* Build configuration list for PBXNativeTarget "TestModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617311D91473108200BED600 /* Debug */,
+				617311DA1473108200BED600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617311A31473108100BED600 /* Project object */;
+}
