@@ -79,6 +79,8 @@
 
 - (void)dismissViewController:(UIViewController *)viewController
 {
+    self.tabBarController.selectedIndex = 1;
+    self.tabBarController.selectedIndex = 0;
     [self dismissModalViewControllerAnimated:YES];
 }
 
